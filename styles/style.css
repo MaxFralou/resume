@@ -7,8 +7,7 @@ body {
 }
 
 span {
-    font-size: 0.8em;
-    font-style: italic;
+    font-size: 0.7em;
 }
 
 a {
@@ -53,7 +52,7 @@ hr {
     color: #ffffff;
 }
 
-.container {
+.container-ru {
     margin-top: 32px;
     margin-right: 48px;
     margin-left: 48px;
@@ -91,4 +90,14 @@ hr {
 .title-part {
     text-transform: uppercase;
     margin-bottom: 0;
+}
+
+.container-eng {
+    margin-top: 32px;
+    margin-right: 48px;
+    margin-left: 48px;
+}
+
+.hidden {
+    display: none;
 }
