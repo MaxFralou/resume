@@ -2,8 +2,8 @@ body {
     width: 210mm;
     height: 297mm;
     margin: 0 auto;
-    font-family: 'Mulish';
-    color: #323232;
+    font-family: 'Nunito';
+    color: #1f2328;
 }
 
 span {
@@ -30,37 +30,22 @@ hr {
 }
 
 .btn-lang {
-    width: 40px;
-    height: 20px;
+    width: 32px;
+    height: 17px;
+    padding-bottom: 2px;
     cursor: pointer;
     border-radius: 4px;
     transition: all 0.2s;
-}
-
-.ru-btn {
-    background-image: url(../assets/rus-b.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.eng-lang {
-    background-image: url(../assets/eng-b.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.switch-lang-ru {
-    background-color: #323232;
-    background-image: url(../assets/rus-w.svg);
-}
-
-.switch-lang-eng {
-    background-color: #323232;
-    background-image: url(../assets/eng-w.svg);
+    text-align: center;
 }
 
 .btn-lang:hover {
     scale: 1.1;
+}
+
+.flag-lang {
+    background-color: #323232;
+    color: #ffffff;
 }
 
 .hidden {
@@ -111,4 +96,10 @@ hr {
     margin-top: 32px;
     margin-right: 48px;
     margin-left: 48px;
+}
+
+@media print {
+    .wrapper-btn-lang {
+        display: none;
+    }
 }
