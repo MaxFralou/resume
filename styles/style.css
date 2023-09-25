@@ -1,6 +1,6 @@
 body {
-    width: 210mm;
-    height: 297mm;
+    max-width: 210mm;
+    max-height: 297mm;
     margin: 0 auto;
     font-family: 'Nunito';
     color: #1f2328;
@@ -11,7 +11,6 @@ span {
 }
 
 a {
-    text-decoration: none;
     color: inherit;
 }
 
@@ -58,10 +57,23 @@ hr {
     margin-left: 48px;
 }
 
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+
+.my-photo {
+    display: inline-block;
+    width: 82px;
+    border-radius: 50%;
+    margin-bottom: 12px;
+    margin-right: 8px;
+}
+
 .title {
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px 0 10px 24px;
 }
 
 .nav {
@@ -72,7 +84,6 @@ hr {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     gap: 10px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -96,10 +107,4 @@ hr {
     margin-top: 32px;
     margin-right: 48px;
     margin-left: 48px;
-}
-
-@media print {
-    .wrapper-btn-lang {
-        display: none;
-    }
 }
